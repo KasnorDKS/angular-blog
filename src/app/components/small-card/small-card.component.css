@@ -1,3 +1,4 @@
+
 .container_small-card{ 
     width: 700px;
 }
@@ -10,6 +11,10 @@
 .img_small-card > img{
     width: 200px;
     min-width: 200px;
+    max-width: 200px;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
     margin-right: 20px;
 }
 
