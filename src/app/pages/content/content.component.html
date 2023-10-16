@@ -1,19 +1,20 @@
 
-
+<a [routerLink]="['']"> <button>Voltar à Página Inicial </button></a>  
 <div class="container_content">
-    <a [routerLink]="['']"> << Voltar </a>
     <div class="cover_content">
         <img src="{{photoCover}}"
         alt="">
     </div>
-    <div class="title_content">
-        <h1>{{contentTitle}}</h1>
-        <hr>
-    </div>
-    <div class="description_content">
-        <p>
-            {{contentDescription}}
-        </p>
+    <div class="text_content">
+        <div class="title_content">
+            <h1>{{contentTitle}}</h1>
+            <hr>
+        </div>
+        <div class="description_content">
+            <p>
+                {{contentDescription}}
+            </p>
+        </div>
     </div>
 
 </div>
